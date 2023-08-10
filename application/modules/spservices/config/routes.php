@@ -381,6 +381,9 @@ $route['spservices/gap-permission-certificate-searchdeatails-ahsec']['POST'] = '
 $route['spservices/gap-permission-certificate-ahsec']['GET'] = 'gappermissioncertificateahsec/registration';
 $route['spservices/gap-permission-certificate-ahsec']['POST'] = 'gappermissioncertificateahsec/registration/submit';
 
+//
+$route['spservices/gorkha-communiity-certificate']['GET'] = 'gorkha_communiity_certificate/registration';
+
 
 //Start of kaac services//
 $route['spservices/kaac-services/(:any)']['GET'] = 'kaac/registration/index/$1';
