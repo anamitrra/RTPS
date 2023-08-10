@@ -13,8 +13,8 @@ class Registration extends Rtps
     public function __construct()
     {
         parent::__construct();
-        // $this->load->model('gappermissioncertificateahsec/registration_model');
-        // $this->load->model('duplicatecertificateahsec/ahsecregistration_model');
+        $this->load->model('gappermissioncertificateahsec/registration_model');
+        $this->load->model('duplicatecertificateahsec/ahsecregistration_model');
         $this->load->helper("cifileupload");
         $this->load->helper("cifileuploaddigilocker");
         $this->load->config('spconfig');
@@ -27,25 +27,49 @@ class Registration extends Rtps
             $this->slug = "user";
         }
     } //End of __construct()
-    // public function fetchsessions($no_of_year)
-    // {
-    //     $currentYear = date('Y') - 3;
-    //     // var_dump($currentYear);
-    //     $yearArray = array();
-    //     for ($i = $currentYear; $i >= ($currentYear - $no_of_year); $i--) {
-    //         $present_year = $i;
-    //         $next_year = sprintf("%02d", (substr($i, -2) + 1));
-    //         $yearArray[$i . '-' . ($next_year)] = $i . '-' . ($next_year);
-    //     }
-    //     // var_dump($yearArray);
-    //     return $yearArray;
-    // }
-    public function index($obj_id = null)
+    public function fetchsessions($no_of_year)
     {
+        $currentYear = date('Y') - 3;
+        // var_dump($currentYear);
+        $yearArray = array();
+        for ($i = $currentYear; $i >= ($currentYear - $no_of_year); $i--) {
+            $present_year = $i;
+            $next_year = sprintf("%02d", (substr($i, -2) + 1));
+            $yearArray[$i . '-' . ($next_year)] = $i . '-' . ($next_year);
+        }
+        // var_dump($yearArray);
+        return $yearArray;
+    }
+
+    public function index($obj_id = null)
+    {   
+        
+            $data = array(
+                "pageTitle" => $this->serviceName,
+                "PageTiteAssamese" => $this->serviceAssameseName,
+            );
+            $filter = array(
+                "_id" => new ObjectId($obj_id),
+                "service_data.appl_status" => "DRAFT",
+            );
+            $data["dbrow"] = $this->registration_model->get_row($filter);
+            $data['usser_type'] = $this->slug;
+            $data["states"] = $this->registration_model->getStates();
+            $data["districts"] = $this->registration_model->getDistricts();
+            $data["sessions"] = $this->fetchsessions(15);
+            // pre($data["dbrow"]);
+            // echo "asdasd";
+            // exit();
+            // $this->load->view('includes/frontend/header');
+            // $this->load->view('gappermissioncertificateahsec/section_one_create', $data);
+            // $this->load->view('includes/frontend/footer');
             $this->load->view('includes/frontend/header');
-            $this->load->view('gorkha_communiity_certificate/gorkha_communiity_certificate');
+            $this->load->view('gorkha_community_certificate/gorkha_community_certificate',$data);
             $this->load->view('includes/frontend/footer');
         
+        // $data=1;
+        
     } //End of index()
+
    
 }
