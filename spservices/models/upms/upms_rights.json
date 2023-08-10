@@ -1,0 +1,60 @@
+[{
+        "right_name": "Forward",
+        "right_description": "Applications forward to next lebel users",
+        "status": 1,
+        "right_code": "FORWARD"
+    },
+    {
+        "right_name": "Remarks",
+        "right_description": "Provide remarks to applications",
+        "status": 1,
+        "right_code": "REMARKS"
+    },
+    {
+        "right_name": "Approve",
+        "right_description": "Approve application",
+        "status": 1,
+        "right_code": "APPROVE"
+    },
+    {
+        "right_name": "Reject",
+        "right_description": "Reject an application",
+        "status": 1,
+        "right_code": "REJECT"
+    },
+    {
+        "right_name": "Backward",
+        "right_description": "Revert back to the last user",
+        "status": 1,
+        "right_code": "BACKWARD"
+    },
+    {
+        "right_name": "File Upload",
+        "right_description": "File attachment",
+        "status": 1,
+        "right_code": "FILE_UPLOAD"
+    },
+    {
+        "right_name": "Query",
+        "right_description": "Query to applicant",
+        "status": 1,
+        "right_code": "QUERY"
+    },
+    {
+        "right_name": "Generate Certificate",
+        "right_description": "Generate Certificate",
+        "status": 1,
+        "right_code": "GENERATE_CERTIFICATE"
+    },
+    {
+        "right_name" : "Update Status",
+        "right_description" : "Update/Add status of the application",
+        "status" : 1,
+        "right_code" : "UPDATE_STATUS"
+    },
+    {
+        "right_name" : "Query Payment",
+        "right_description" : "Query payment to applicant",
+        "status" : 1,
+        "right_code" : "QUERY_PAYMENT"
+    }]

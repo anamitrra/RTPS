@@ -1,0 +1,13 @@
+{    
+    "user_fullname" : "Developer",
+    "login_designation" : "Developer",
+    "login_username" : "dev",
+    "email_id" : "dev@gmail.com",
+    "mobile_number" : "9999999999",
+    "login_password" : "$6$rounds=5050$642e7118c2f8a5.6$R29O.ascPNlfTJFWZLeSwXOVAXWAIjTixb8mBUCgBh.8DCJ/1lLcOmyKPYLFoAW9Qnry37pbfVgLdsbe3zobF/",
+    "user_types" : {
+        "utype_id" : 1,
+        "utype_name" : "Developer Account"
+    },
+    "status" : 1
+}
