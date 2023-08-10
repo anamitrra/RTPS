@@ -1,0 +1,123 @@
+.dashboard-data {
+    padding: 1.3rem 0;
+    overflow: auto;
+}
+.dashboard-data .card {
+    flex: 0 0 18%;
+    margin: 0 0.5rem;
+}
+
+.dashboard-data .card i,
+.dashboard-data .card h4,
+.dashboard-data .card p {
+  color: var(--text-color-secondary);
+}
+
+
+
+.dashboard-data .card-header {
+    background-color: inherit;
+    border-bottom: none;
+}
+.disclaimer {
+  font-size: smaller;
+}
+
+
+.nav-tabs .nav-link {
+  color: var(--text-color);
+}
+.nav-tabs .nav-link.active {
+  color: var(--color-primary-dark);
+  /* border-color: var(--color-accent); */
+}
+
+
+.recent-services {
+    height: 400px;
+    overflow-y: auto;
+}
+.recent-services img {
+  margin: 0 0.4rem 0.4rem 0;
+}
+.recent-services li:first-child {
+  color: var(--color-primary-dark);
+}
+
+  .available-services {
+    height: 600px;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+  .services-by-dept a {
+    color: var(--color-primary);
+  }
+  .services-by-dept a:hover, .services-by-dept a:focus {
+    color: var(--color-primary-dark);
+  } 
+
+  .guide-lines a {
+    color: var(--color-primary-dark);
+  }
+  
+
+  /*Figure cards*/
+  .card.rcv{
+  background-color: #17a2b8;
+  }
+  .card.pen{
+    background-color: #ffc107
+  }
+  .card.pentime{
+    background-color: rgb(255, 145, 0);
+  }
+  .card.dis{
+    background-color: #28a745;
+  }
+  .card.del{
+    background-color: rebeccapurple;
+  }
+  
+
+/*   
+.appl-received {
+  color: white;
+  background-color: #17a2b8;
+}
+
+.appl-received:hover {
+  background-color: rgba(23, 162, 184, 0.3);
+}
+
+.appl-disposed {
+  color: white;
+  background-color: #28a745;
+}
+.appl-disposed:hover {
+  background-color: rgba(40, 167, 69, 0.3);
+}
+
+.appl-timely {
+  color: white;
+  background-color: rebeccapurple;
+}
+.appl-timely:hover {
+  background-color: rgb(102,51,153, 0.3);
+}
+
+.appl-pending {
+  color: white;
+  background-color: #ffc107;
+}
+.appl-pending:hover {
+  background-color: rgb(255,193,7, 0.3);
+}
+
+.appl-pending-timely {
+  color: white;
+  background-color: rgb(255, 145, 0);
+}
+.appl-pending-timely:hover {
+  background-color: rgb(255, 145, 0, 0.3);
+}
+ */

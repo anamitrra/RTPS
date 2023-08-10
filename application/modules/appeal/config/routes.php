@@ -1,0 +1,258 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+$route['appeal'] = 'ams/login';
+//API
+$route['appeal/status/api'] = 'ams/count_appeal_status';
+$route['appeal/api/service_wise_appeal_count'] = 'api/appeal/service_wise_appeal_count';
+$route['appeal/login']                              = 'ams/login';
+$route['appeal/send-otp']                           = 'ams/send_otp';
+$route['appeal/process-login']['POST']              = 'ams/process_appeal_login';
+$route['appeal/userarea']                           = 'ams/dashboard';
+$route['appeal/myappeals']                          = 'ams/myappeals';
+$route['appeal/myappeals/get_records']              = 'ams/myappeals_get_records';
+$route['appeal/myapplications']                     = 'ams/myapplications';
+$route['appeal/myapplications/get_records']         = 'ams/myapplications_get_records';
+$route['appeal/applications']                       = 'applications/applications';
+$route['appeal/applications/get_records']           = 'applications/applications_get_records';
+$route['appeal/applications/myappeals']             = 'applications/my_appeals';
+$route['appeal/applications/myappeals/get_records'] = 'applications/my_appeals_get_records';
+$route['appeal/make-appeal']                     = 'ams/make_appeal_view';
+$route['appeal/fetch-official/(:any)/(:any)']    = 'ams/fetch_official/$1/$2';
+$route['appeal/no-ref-process']                  = 'ams/no_ref_process';
+$route['appeal/ack-without-ref']                 = 'ams/ack_without_ref';
+$route['appeal/apply']                           = 'ams/apply_for_appeal';
+$route['appeal/process']['POST']                 = 'ams/process';
+$route['appeal/ack']['GET']                      = 'ams/acknowledgement';
+$route['appeal/track']['GET']                    = 'ams/preview_and_track';
+$route['appeal/comment']['POST']                 = 'ams/submit_comment';
+$route['appeal/process/show-attachments/(:any)'] = 'appeals/show_process_attachment_list/$1';
+$route['appeal/process/refresh/(:any)']          = 'appeals/refresh_process_table/$1';
+$route['appeal/logout']                          = 'ams/logout';
+$route['appeal/second']                          = 'second_appeals/index';
+$route['appeal/second/send-otp']                 = 'second_appeals/send_otp';
+$route['appeal/second/process-login']['POST']    = 'second_appeals/process_appeal_login';
+$route['appeal/second/apply']                    = 'second_appeals/apply_second_appeal';
+$route['appeal/second/submit']['POST']           = 'second_appeals/process';
+$route['appeal/second/ack']                      = 'ams/second_appeal_acknowledgement';
+$route['appeal/second/preview-n-track']          = 'second_appeals/preview_and_track';
+$route['appeal/second/comment']['POST']          = 'second_appeals/submit_comment';
+//Appeal Pull Applications
+$route['appeal/pull/pending/applications']['GET']          = 'admin/pull_applications';
+
+// appeal apply by other than appellant
+$route['appeal/first/apply/others']['GET']          = 'admin/ams/apply_for_first_appeal_by_others';
+$route['appeal/first/apply/others/process']['POST'] = 'admin/ams/process';
+$route['appeal/admin/ack']['GET']                   = 'admin/ams/acknowledgement';
+$route['appeal/second/apply/other']                 = 'admin/ams/apply_second_appeal';
+$route['appeal/other/track']['GET']                 = 'admin/ams/preview_and_track';
+$route['appeal/track/login']                 = 'TrackAppeals/login';
+$route['appeal/track/send-otp']              = 'TrackAppeals/send_otp';
+$route['appeal/track/process-login']['POST'] = 'TrackAppeals/process_appeal_login';
+// Login
+$route['appeal/admin'] = 'login/index';
+$route['appeal/admin/login']                  = 'login/index';
+$route['appeal/admin/username-login'] = 'login/usernameLogin';
+$route['appeal/login/loginMe']['POST']        = 'login/loginMe';
+$route['appeal/login/loginUsingUsername']['POST']        = 'login/loginUsingUsername';
+$route['appeal/login/selectUser/$email']['POST']        = 'login/selectUser';
+$route['appeal/login/forgot-password']        = 'login/forgotPassword';
+$route['appeal/reset-password/(:any)/(:any)'] = 'login/resetPasswordConfirmUser/$1/$2';
+$route['appeal/reset-password/process']       = 'login/createPasswordUser';
+$route['appeal/login/logout']                 = 'login/logout';
+// Appeal Dashboard
+$route['appeal/office-users']['GET'] = 'dashboard/officeUsers';
+$route['appeal/office-users-by-username']['GET'] = 'dashboard/officeUsersByUsername';
+$route['appeal/dashboard']['GET'] = 'dashboard/index';
+// commission
+$route['appeal/commission']['GET'] = 'commission/index';
+$route['appeal/commission/save']['POST'] = 'commission/save';
+// Search Appeal
+$route['appeal/search']['POST'] = 'appeal/search';
+// users
+$route['users']                              = 'users';
+$route['users/get_records']                  = 'users/get_records';
+$route['users/create']                       = 'users/create';
+$route['users/create_action']                = 'users/create_action';
+$route['users/read/(:any)']                  = 'users/read/$1';
+$route['users/update/(:any)']                = 'users/update/$1';
+$route['users/update_action']                = 'users/update_action';
+$route['users/delete/(:any)']                = 'users/delete/$1';
+$route['appeal/verify-user/send-otp']['GET'] = 'admin/ams/send_sms_otp_to_verify_user';
+$route['appeal/verfiy/user']['POST']         = 'admin/ams/verfiy_user';
+// roles
+$route['roles']               = 'roles';
+$route['roles/get_records']   = 'roles/get_records';
+$route['roles/add']           = 'roles/add';
+$route['roles/get_role_info'] = 'roles/get_role_info';
+$route['roles/update']        = 'roles/update';
+// first appeal
+$route['appeal/list']['GET']                                 = 'admin/first_appeal_process/list';
+$route['appeal/reports']                                     = 'admin/appeal_reports/index';
+$route['appeal/reports/total']                               = 'admin/reports/index';
+$route['appeal/reports/total_reports_get_records']           = 'admin/reports/total_reports_get_records';
+$route['appeal/reports/pending']                             = 'admin/reports/pending';
+$route['appeal/reports/pending_reports_get_records']         = 'admin/reports/pending_reports_get_records';
+$route['appeal/reports/resolved']                            = 'admin/reports/resolved';
+$route['appeal/reports/resolved_reports_get_records']        = 'admin/reports/resolved_reports_get_records';
+$route['appeal/reports/rejected']                            = 'admin/reports/rejected';
+$route['appeal/reports/rejected_reports_get_records']        = 'admin/reports/rejected_reports_get_records';
+$route['appeal/reports/disposed_within_30']                  = 'admin/reports/disposed_within_30';
+$route['appeal/reports/disposed_within_30_get_records']      = 'admin/reports/disposed_within_30_get_records';
+$route['appeal/appeal_reports/get_records']                  = 'admin/appeal_reports/get_records';
+$route['appeal/reports/penalty']                             = 'admin/appeal_reports/penalty';
+$route['appeal/appeal_reports/get_penalty_records']          = 'admin/appeal_reports/get_penalty_records';
+$route['appeal/appeal_reports/excel_export_penalty_reports'] = 'admin/appeal_reports/excel_export_penalty_reports';
+$route['appeal_reports/get_records']                         = 'admin/appeal_reports/get_records';
+$route['appeal/excel-export']                                = 'appeal/excel_export';
+$route['appeal/get_records/(:any)']                          = 'admin/first_appeal_process/get_records/$1';
+// first appeal processes
+$route['appeal/first/process/provide-hearing-date']        = 'admin/first_appeal_process/process_provide_hearing_date';
+$route['appeal/first/process/provide-hearing-date-revert-to-da'] = 'admin/first_appeal_process/process_provide_hearing_date_revert_to_da';
+$route['appeal/first/process/revert-back-to-da']           = 'admin/first_appeal_process/process_revert_back_to_da';
+$route['appeal/first/process/upload-hearing-order']        = 'admin/first_appeal_process/process_upload_hearing_order';
+$route['appeal/first/process/approve-hearing-order']       = 'admin/first_appeal_process/process_approve_hearing_order';
+$route['appeal/first/process/upload-disposal-order']       = 'admin/first_appeal_process/process_upload_disposal_order';
+$route['appeal/first/process/approve-disposal-order']       = 'admin/first_appeal_process/process_approve_disposal_order';
+$route['appeal/first/process/upload-rejection-order']       = 'admin/first_appeal_process/process_upload_rejection_order';
+$route['appeal/first/process/approve-rejection-order']       = 'admin/first_appeal_process/process_approve_rejection_order';
+$route['appeal/first/process/hearing']       = 'admin/first_appeal_process/process_hearing';
+$route['appeal/first/process/seek-info']     = 'admin/first_appeal_process/process_seek_info';
+$route['appeal/first/process/dps-reply']     = 'admin/first_appeal_process/process_dps_reply';
+$route['appeal/first/process/in-progress']   = 'admin/first_appeal_process/process_in_progress';
+$route['appeal/first/process/issue-order']   = 'admin/first_appeal_process/process_issue_order';
+$route['appeal/first/process/issue-penalty-order']   = 'admin/first_appeal_process/process_issue_penalty_order';
+$route['appeal/first/process/reassign']      = 'admin/first_appeal_process/process_reassign';
+$route['appeal/first/process/forward']       = 'admin/first_appeal_process/process_forward';
+$route['appeal/first/process/forward-to-aa']       = 'admin/first_appeal_process/process_forward_to_aa';
+$route['appeal/first/process/generate-penalty-order'] = 'admin/first_appeal_process/process_generate_penalty_order';
+$route['appeal/first/process/penalize'] = 'admin/first_appeal_process/process_penalize';
+$route['appeal/first/process/reject']        = 'admin/first_appeal_process/process_reject';
+$route['appeal/first/process/dispose']       = 'admin/first_appeal_process/process_dispose';
+$route['appeal/first/process/final-verdict']           = 'admin/first_appeal_process/process_final_verdict';
+//second appeal process
+$route['appeal/second/process/comment-before-final-verdict']     = 'admin/second_appeal_process/process_comment_before_final_verdict';
+$route['appeal/second/process/seek-info']     = 'admin/second_appeal_process/process_seek_info'; //from appellant
+$route['appeal/second/process/upload-hearing-order'] = 'admin/second_appeal_process/process_upload_hearing_order';
+$route['appeal/second/process/upload-disposal-order']       = 'admin/second_appeal_process/process_upload_disposal_order';
+$route['appeal/second/process/upload-rejection-order']       = 'admin/second_appeal_process/process_upload_rejection_order';
+$route['appeal/second/process/forward-to-rr'] = 'admin/second_appeal_process/process_forward_to_rr';
+$route['appeal/second/process/revert-back-to-da']           = 'admin/second_appeal_process/process_revert_back_to_da';
+$route['appeal/second/process/forward-to-chairman']         = 'admin/second_appeal_process/process_forward_to_chairman';
+$route['appeal/second/process/forward-to-moc']         = 'admin/second_appeal_process/process_forward_to_moc';
+$route['appeal/second/process/issue-rejection-order']   = 'admin/second_appeal_process/process_issue_rejection_order';
+$route['appeal/second/process/issue-hearing-order']     = 'admin/second_appeal_process/process_issue_hearing_order';
+$route['appeal/second/process/issue-disposal-order']    = 'admin/second_appeal_process/process_issue_disposal_order';
+$route['appeal/second/process/approve-rejection-order'] = 'admin/second_appeal_process/process_approve_rejection_order';
+$route['appeal/second/process/approve-rejection-order'] = 'admin/second_appeal_process/process_approve_rejection_order';
+$route['appeal/second/process/revert-back-to-rr']      = 'admin/second_appeal_process/process_revert_back_to_rr';
+$route['appeal/second/process/change-hearing-date']    = 'admin/second_appeal_process/process_change_hearing_date';
+$route['appeal/second/process/confirm-hearing-date']   = 'admin/second_appeal_process/process_confirm_hearing_date';
+$route['appeal/second/process/approve-disposal-order'] = 'admin/second_appeal_process/process_approve_disposal_order';
+$route['appeal/second/process/approve-hearing-order']  = 'admin/second_appeal_process/process_approve_hearing_order';
+$route['appeal/second/process/create-bench']           = 'admin/second_appeal_process/process_create_bench';
+$route['appeal/second/process/final-verdict']           = 'admin/second_appeal_process/process_final_verdict';
+$route['appeal/second/process/view-order/(:any)/(:any)/(:any)'] = 'admin/second_appeal_process/generate_order_from_repo/$1/$2/$3';
+// second appeal
+$route['appeal/list/second']                      = 'appeal/second_appeal_list';
+$route['appeal/process/view/(:any)']['GET']       = 'admin/first_appeal_process/index/$1';
+$route['appeal/second/process/view/(:any)']['GET']  = 'admin/second_appeal_process/index/$1';
+$route['appeal/view/(:any)']                      = 'appeal/view_appeal/$1';
+$route['appeal/process/dps/action']['POST']       = 'appeal/process_dps_action';
+$route['appeal/process/appellate/action']['POST'] = 'appeal/process_appellate_action';
+$route['process/reviewer/action/(:any)']['POST']  = 'appeal/process_reviewer_action/$1';
+$route['second-appeals/process/view/(:any)']      = 'appeal/view_second_appeal_processes/$1';
+//Expired Appeals
+$route['appeal/expired']                 = 'expired_appeals/index';
+$route['appeal/get_expired_appeals']     = 'expired_appeals/get_expired_appeals';
+$route['appeal/approve-expired']['POST'] = 'expired_appeals/approve_expired_application';
+$route['appeal/reject-expired']['POST']  = 'expired_appeals/reject_expired_application';
+//Locked Appeals
+$route['appeal/locked']                 = 'locked_appeals/index';
+$route['appeal/get_locked_appeals']     = 'locked_appeals/get_locked_appeals';
+$route['appeal/approve-locked']['POST'] = 'locked_appeals/approve_locked_application';
+$route['appeal/reject-locked']['POST']  = 'locked_appeals/reject_locked_application';
+$route['appeal/rejected']             = 'rejected_appeals/index';
+$route['appeal/get_rejected_appeals'] = 'rejected_appeals/get_rejected_appeals';
+$route['appeal/resolved']      = 'resolved_appeals/index';
+$route['appeal/get_resolved_appeals'] = 'resolved_appeals/get_resolved_appeals';
+//Route for services
+$route['appeal/aservices']                  = 'services/index';
+$route['appeal/aservices/get_records']      = 'services/get_records';
+$route['appeal/aservices/get_service_info'] = 'services/get_service_info';
+$route['appeal/aservice/add']['POST']       = 'services/insert';
+$route['appeal/aservice/delete']            = 'services/delete';
+$route['appeal/aservice/update']['POST']    = 'services/update';
+//Routes for Locations
+$route['appeal/locations']                  = 'locations/index';
+$route['appeal/locations/get_records']      = 'locations/get_records';
+$route['appeal/location/get_location_info'] = 'locations/get_location_info';
+$route['appeal/location/add']['POST']       = 'locations/insert';
+$route['appeal/location/delete']            = 'locations/delete';
+$route['appeal/location/update']['POST']    = 'locations/update';
+//Routes for Departments
+$route['appeal/departments']                     = 'departments/index';
+$route['appeal/departments/get_records']         = 'departments/get_records';
+$route['appeal/departments/get_department_info'] = 'departments/get_department_info';
+$route['appeal/department/add']['POST']          = 'departments/insert';
+$route['appeal/department/delete']               = 'departments/delete';
+$route['appeal/department/update']['POST']       = 'departments/update';
+$route['appeal/officials']                                = 'official_details/index';
+$route['appeal/official_details/create']['POST']          = 'official_details/create';
+$route['appeal/official_details/get_records']             = 'official_details/get_records';
+$route['appeal/official-details/get-service-list/(:any)'] = 'official_details/get_service_list_by_department_id/$1';
+
+// Another official details
+$route['appeal/officials_draft']                        = 'another_official_details/index';
+$route['appeal/another_officials/get_records']             = 'another_official_details/get_records';
+
+// Templates
+$route['appeal/templates']['GET']             = 'templates/index';
+$route['appeal/templates/store']['POST']      = 'templates/store';
+$route['appeal/templates/show/(:any)']['GET'] = 'templates/show/$1';
+$route['appeal/templates/generate']['GET']    = 'templates/generate';
+$route['appeal/templates/view-order']['GET']    = 'templates/view_order';
+//$route['appeal/templates/second/generate']['GET']    = 'templates/generate_for_second_appeal';
+$route['appeal/templates/edit']['GET']    = 'templates/edit';
+$route['appeal/templates/update']['POST']    = 'templates/update_order';
+$route['appeal/templates/view-and-download/penalty-order']['POST']    = 'templates/view_and_download_penalty_order';
+$route['appeal/templates/view-and-download/disposal-order']['POST']    = 'templates/view_and_download_disposal_order';
+$route['appeal/templates/view-and-download/disposal-order/(appeal/process/view/:any)']['POST']    = 'templates/view_and_download_disposal_order/$1';
+$route['appeal/templates/view-and-download/rejection-order']['POST']    = 'templates/view_and_download_rejection_order';
+$route['appeal/templates/view-and-download/rejection-order/(:any)']['POST']    = 'templates/view_and_download_rejection_order/$1';
+$route['appeal/templates/view-and-download/hearing-order']['POST']    = 'templates/view_and_download';
+$route['appeal/templates/view-and-download/hearing-order/(:any)']['POST']    = 'templates/view_and_download/$1';
+$route['appeal/templates/generated_view_action_template']['POST'] = 'admin/first_appeal_process/generate_action_view';
+$route['appeal/second/templates/generated_view_action_template']['POST'] = 'admin/second_appeal_process/generate_action_view';
+$route['appeal/templates/second/download-generated-template/(:any)/(:any)/(:any)']['GET'] = 'admin/second_appeal_process/download_generated_template/$1/$2/$3';
+$route['appeal/templates/download-generated-template/(:any)/(:any)/(:any)']['GET'] = 'admin/first_appeal_process/download_generated_template/$1/$2/$3';
+// Profile
+$route['appeal/profile']              = 'profiles/index';
+$route['appeal/profile/update']       = 'profiles/update';
+$route['appeal/password']             = 'profiles/password';
+$route['appeal/password/update']      = 'profiles/password_update';
+$route['appeal/profile/photo']        = 'profiles/upload_photo';
+$route['appeal/profile/photo/remove'] = 'profiles/remove_photo';
+// captcha
+$route['appeal/refresh-captcha']['GET'] = 'appeals/refresh_captcha';
+// Holiday
+$route['appeal/holiday']['GET'] = 'admin/holiday/index';
+$route['appeal/holiday/get_records']['POST'] = 'admin/holiday/get_records';
+$route['appeal/holiday/add']['POST'] = 'admin/holiday/add';
+$route['appeal/holiday/update']['POST'] = 'admin/holiday/update';
+$route['appeal/holiday/delete/(:any)']['GET'] = 'admin/holiday/delete/$1';
+if (ENVIRONMENT === "development") {
+    // test app routes
+    $route['appeal/factory-reset']                 = 'test_app/factory_reset';
+    $route['appeal/change/mobile/(:any)']          = 'test_app/change_mobile/$1';
+    $route['appeal/change/submission_date/(:any)'] = 'test_app/change_submission_date/$1';
+    $route['appeal/test/view']                     = 'test_app/view';
+    $route['appeal/test']                          = 'test_app/test';
+    $route['appeal/test/sms-preview']              = 'test_app/sms_preview';
+    $route['appeal/test/update/application']       = 'test_app/update_application';
+    $route['appeal/test/update/appeal']            = 'test_app/update_appeal';
+    $route['appeal/test/update/appeal']            = 'test_app/update_appeal';
+    $route['appeal/test/view-excel-sms']['GET']    = 'test_app/view_excel_sms';
+    $route['appeal/test/excel-sms/submit']['POST'] = 'test_app/process_excel_sms';
+    // demo routes
+    require_once APPPATH . '/routes/demo.php';
+}

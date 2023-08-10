@@ -1,0 +1,96 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Site_text extends Rtps
+{
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('admin/content_model');
+    }
+
+    public function index()
+    {
+
+        $data['all'] = $this->content_model->site_text();
+        
+        foreach ($data['all'] as $value) {
+            $arr = explode("_", $value->name);
+            $value->name_formatted = ucfirst($arr[0]) . " " . ucfirst($arr[1] ?? '');
+        }
+
+        // pre($data['all']);
+
+        $this->load->view("admin/includes/header", array("pageTitle" => "ARTPS | Site Text"));
+
+        $data['name'] = '';
+
+        if (!empty($this->input->post("name"))) {
+            $data['name'] = $this->input->post("name");
+        }
+
+        $name = $this->input->post("name");
+
+        $data['results'] = $this->content_model->get_text($name);
+        
+        $this->load->view('admin/site_texts', $data);
+        $this->load->view("admin/includes/footer");
+    }
+
+    public function update()
+    {
+        $raw_data = trim($this->input->raw_input_stream);
+        // pre($raw_data);
+
+        $arr = explode("jsonbox=", $raw_data);
+        // pre($arr);
+
+        $arr =  explode("name=", trim($arr[1]));
+
+        // $json_str = trim($arr[1], " name");
+        $data = json_decode($arr[0], true);
+
+        // pre($arr);
+
+        /* 
+    switch (json_last_error()) {
+        case JSON_ERROR_NONE:
+            echo ' - No errors';
+        break;
+        case JSON_ERROR_DEPTH:
+            echo ' - Maximum stack depth exceeded';
+        break;
+        case JSON_ERROR_STATE_MISMATCH:
+            echo ' - Underflow or the modes mismatch';
+        break;
+        case JSON_ERROR_CTRL_CHAR:
+            echo ' - Unexpected control character found';
+        break;
+        case JSON_ERROR_SYNTAX:
+            echo ' - Syntax error, malformed JSON';
+        break;
+        case JSON_ERROR_UTF8:
+            echo ' - Malformed UTF-8 characters, possibly incorrectly encoded';
+        break;
+        default:
+            echo ' - Unknown error';
+        break;
+    }
+    die(); */
+
+
+
+
+
+
+
+        $name = $arr[1];
+        // pre($name);
+        $this->content_model->update_text($name, $data);
+        //  pre($d);
+
+        $this->session->set_flashdata('success', 'Successfully Updated');
+        redirect('site/admin/site_text');
+    }
+}

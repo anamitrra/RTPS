@@ -1,0 +1,52 @@
+ # For RTPS Portal
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api all_service_status
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api application_count
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api gender_wise_application_count
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api officewise
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api departmentewise
+
+# OVCA
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/stored_api officewise_appilcation_for_ovca_v2
+
+# For MIS Dashboard
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/api/servicewise_store_api servicewise_count_group_by_office
+
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/api/first_appeal_store_api servicewise_count_first_appeal
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/api/first_appeal_store_api districtwise_first_appeal_count
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/api/first_appeal_store_api servicewise_second_appeal_count
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/api/first_appeal_store_api districtwise_second_appeal_count
+
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/feedback send_feedback_sms_all
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/feedback send_feedback_sms_on_submission
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php mis/feedback send_feedback_sms_on_delivered
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/sarathi/Sarathi_response update_applications
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Transoprt_response noc_status_update
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers send_query_sms
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers send_delivery_sms
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers sms_onchange_action
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers update_payment_status
+
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers noc_status_update
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers push_payment_status_on_basundhara
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Sarathi_data update_sarathi_data
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers get_basundhara_status_updated_apps
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers remove_basundhara_status
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php spservices/apdcl/Schedular track_status
+
+
+
+
+
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-07-01&end_date=2022-07-31
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-08-01&end_date=2022-08-30
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-09-01&end_date=2022-09-31
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-10-01&end_date=2022-10-30
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-11-01&end_date=2022-11-31
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2022-12-01&end_date=2022-12-31
+/opt/lampp/bin/php /opt/lampp/htdocs/apps/cli.php iservices/Schedulers basundhara_status_update_by_service/242?start_date=2023-01-01&end_date=2023-02-10

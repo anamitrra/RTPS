@@ -1,0 +1,38 @@
+Portal APIS:
+https://localhost/rtps/mis/stored_api/all_service_status
+https://localhost/rtps/mis/stored_api/application_count
+https://localhost/rtps/mis/stored_api/gender_wise_application_count
+https://localhost/rtps/mis/stored_api/officewise
+https://localhost/rtps/mis/stored_api/departmentewise
+
+For Ovca
+
+https://localhost/rtps/mis/stored_api/officewise_appilcation_for_ovca
+https://localhost/rtps/mis/stored_api/officewise_appilcation_for_ovca_v2
+For MIS Dashboard
+https://localhost/rtps/mis/api/servicewise_store_api/servicewise_count_group_by_office
+
+TO Insert Offices into Database 
+I have queried the application collection and fetched the submission_location field 
+
+https://localhost/rtps/mis/api/dashboard/insertOfficesIntoDatabase
+
+
+REST API:
+https://localhost/rtps/mis/rest/jwt
+
+
+
+
+
+First appeal count by service ::
+https://localhost/rtps/mis/api/first_appeal_store_api/servicewise_count_first_appeal
+First appeal count by department ::
+https://localhost/rtps/mis/api/first_appeal_store_api/districtwise_first_appeal_count
+
+
+
+Second appeal count by service ::
+https://localhost/rtps/mis/api/first_appeal_store_api/servicewise_second_appeal_count
+Second appeal count by department ::
+https://localhost/rtps/mis/api/first_appeal_store_api/districtwise_second_appeal_count

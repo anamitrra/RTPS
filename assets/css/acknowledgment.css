@@ -1,0 +1,24 @@
+.h2 {
+  text-align: center;
+  flex: 1;
+  /* padding: 10px; */
+}
+
+.img {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100px;
+  height: auto;
+}
+
+.akno {
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.bor {
+  border: 1px solid;
+  padding: 30px;
+}

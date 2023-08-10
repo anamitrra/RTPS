@@ -1,0 +1,14 @@
+{
+    "source sans pro": {
+        "italic": "C:\\xampp\\htdocs\\rtps\\application\\libraries\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/source_sans_pro_italic_af17c8440088929b38c5cfe930d7915d",
+        "300": "C:\\xampp\\htdocs\\rtps\\application\\libraries\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/source_sans_pro_300_c6077ec99d149827fee17e2ea27788e4",
+        "normal": "source_sans_pro_normal_a331146e176a0c94e64a58f063c4f2b5",
+        "bold": "C:\\xampp\\htdocs\\rtps\\application\\libraries\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/source_sans_pro_bold_cfebb083c1921633494989255bc500d0"
+    },
+    "open sans": {
+        "normal": "open_sans_normal_bf11512877ef2223afd06e89358ef2fc"
+    },
+    "dancing script": {
+        "normal": "dancing_script_normal_363df21d003384856ae60d46b7886e80"
+    }
+}

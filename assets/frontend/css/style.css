@@ -1,0 +1,183 @@
+html {
+  height: 100vh; }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0 !important;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+
+@media (max-width: 800px) {
+  html, body {
+    font-size: 11px; } }
+.loader {
+  position: fixed;
+  background-color: #f1f2f3;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10; }
+  .loader img {
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.flag {
+  max-height: 1rem; }
+
+.nav-head {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover; }
+  @media (max-width: 600px) {
+    .nav-head {
+      background-image: none;
+      background-color: #1479bd; } }
+  @media (min-width: 800px) {
+    .nav-head {
+      max-height: 10rem; } }
+  .nav-head .header-sec {
+    position: relative; }
+    .nav-head .header-sec .tog-btn {
+      position: absolute;
+      right: 0;
+      top: 1.2rem; }
+  .nav-head .leftlogo {
+    max-height: 6rem; }
+    @media (max-width: 450px) {
+      .nav-head .leftlogo {
+        max-height: 4rem; } }
+  .nav-head #rightlogo {
+    max-height: 4rem; }
+
+.editorial {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 5;
+  bottom: 0;
+  /* position: absolute; */
+  left: 0px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: -30px; }
+
+.parallax1 > use {
+  animation: move-forever1 10s linear infinite; }
+  .parallax1 > use:nth-child(1) {
+    animation-delay: -2s; }
+
+.parallax2 > use {
+  animation: move-forever2 8s linear infinite; }
+  .parallax2 > use:nth-child(1) {
+    animation-delay: -2s; }
+
+.parallax3 > use {
+  animation: move-forever3 6s linear infinite; }
+  .parallax3 > use:nth-child(1) {
+    animation-delay: -2s; }
+
+.parallax4 > use {
+  animation: move-forever4 4s linear infinite; }
+  .parallax4 > use:nth-child(1) {
+    animation-delay: -2s; }
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%); }
+  100% {
+    transform: translate(-90px, 0%); } }
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%); }
+  100% {
+    transform: translate(85px, 0%); } }
+@keyframes move-forever3 {
+  0% {
+    transform: translate(85px, 0%); }
+  100% {
+    transform: translate(-90px, 0%); } }
+@keyframes move-forever4 {
+  0% {
+    transform: translate(-90px, 0%); }
+  100% {
+    transform: translate(85px, 0%); } }
+.sub-sites {
+  text-align: center;
+  position: relative;
+  padding: 10px 15px 0; }
+
+.sub-sites li {
+  padding: 0 10px;
+  border-left: 1px solid #6b6c6f;
+  display: inline-block;
+  margin-bottom: 10px;
+  list-style: none; }
+
+.sub-sites li:first-child, .footer-logo li:first-child {
+  border: none; }
+
+.sub-sites:after {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(6, 47, 60, 0.01) 0%, rgba(45, 75, 100, 0.98) 50%, #2c4a63 51%, rgba(6, 47, 60, 0.01) 100%) repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%; }
+
+.footer-logo {
+  background: #000;
+  padding: 7px 15px 0;
+  text-align: center; }
+
+.footer-logo li {
+  border-left: 1px solid #28282a;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 7px;
+  vertical-align: middle;
+  list-style: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+#front_content {
+  border: none; }
+
+.parsley-errors-list {
+  color: red; }
+
+@media all and (max-width: 640px) {
+  .sub-sites li, .sub-sites li:first-child {
+    padding: 10px;
+    border: 1px solid #2c4a63; }
+
+  .sub-sites {
+    padding: 15px 10px 5px; } }
+@media all and (max-width: 567px) {
+  .footer-logo {
+    overflow: hidden;
+    padding: 10px 5px 0; }
+
+  .footer-logo li {
+    width: 50%;
+    border-left: none;
+    padding: 0px;
+    float: left;
+    margin: 10px 0; }
+
+  .footer-logo li:nth-child(2n+2) {
+    border-left: 1px solid #28282a; }
+
+  #block-block-66 {
+    width: 37% !important;
+    margin-left: 30% !important; } }
+
+/*# sourceMappingURL=style.css.map */
+
+.appeal-icon-color-blue{
+  color:rgb(54, 152, 238) !important
+}

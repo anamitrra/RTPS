@@ -1,0 +1,1 @@
+var dscapibaseurl = "https://rurban.gov.in/dscapi/"

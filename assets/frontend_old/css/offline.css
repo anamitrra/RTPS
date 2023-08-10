@@ -1,0 +1,125 @@
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+  color: #000;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+hr {
+  border-color: lightgrey;
+}
+
+.nav-clr {
+  background: #1479bd url(../images/header.png) 0 0 no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+}
+#leftlogo {
+  vertical-align: middle;
+  width: 500px;
+  height: 87px;
+}
+
+#rightlogo {
+    vertical-align: top;
+    width: auto;
+    height: 80px;
+    padding-left: 3px;
+}
+
+nav > div.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav a {
+  margin-right: auto;
+}
+
+.my-button {
+  color: white;
+  background-color: #C06C84;
+  border-color: #C06C84;
+  border-radius: 0;
+  font-size: initial;
+}
+
+a.my-button:hover {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #f7fcff;
+}
+
+.jumbotron p {
+  font-size: initial;
+  font-weight: normal;
+}
+
+.jumbotron h1, .sub-head {
+  color: #1e7fbd;
+}
+
+p.sub-head {
+  font-weight: bold;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background: linear-gradient(to bottom,#2872c1 0%,#022b38 100%);
+}
+
+footer > div {
+  padding: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+p.footer-text {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: smaller;
+  margin: 0 4rem;
+}
+
+img#nic-logo {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 760px) {
+  #rightlogo {
+    display: none!important;
+  }
+  
+  nav > div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-clr {
+    background: #1479bd;
+    background-size: cover;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+  }
+  
+  #leftlogo {
+    vertical-align: top;
+    width: 280px;
+    height: 70px;
+  }
+
+  p.footer-text {
+    display: none;
+  }
+
+  footer > div {
+    justify-content: center;
+  }
+}

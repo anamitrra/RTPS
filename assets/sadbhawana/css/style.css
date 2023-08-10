@@ -1,0 +1,77 @@
+.nounderline {
+  text-decoration: none !important
+}
+.basundhara_dashboard .dashboard-card {
+    padding: 30px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 15px 30px rgb(0 0 0 / 18%);
+}
+.basundhara_dashboard .dashboard-card:hover{
+    border: 2px solid #5b9b25;
+}
+.basundhara_dashboard .dashboard-card img {
+    float: left;
+    height: 50px;
+}
+
+.basundhara_dashboard .dashboard-card span {
+    font-size: 40px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-left: 60px;
+}
+
+.basundhara_dashboard .dashboard-card p {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #505050;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+}
+
+.basundhara_dashboard .dashboard-card a {
+    padding: 15px 0 0 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #5ebe10;
+    margin-right:10px;
+}
+
+.basundhara_dashboard .dashboard-card a:hover {
+    color: #f9b500;
+    text-decoration: underline;
+}
+
+
+
+/*Responsive*/
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .basundhara_dashboard .dashboard-card span {
+        font-size: 20px;
+        line-height: 40px;
+        display: block;
+        font-weight: 700;
+        color: #2a2a2a;
+        margin-left: 40px;
+    }
+    .basundhara_dashboard .dashboard-card img {
+        float: left;
+        height: 30px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 355px) {
+    #header .basundhara_logo {
+        font-size: 18px;
+    }
+    .basundhara_dashboard .dashboard-card p {
+        margin-top: 0px;
+        font-size: 12px;}
+    .basundhara_dashboard .dashboard-card a {
+        font-size: 11px;}
+
+}

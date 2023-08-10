@@ -1,0 +1,75 @@
+
+  .star-rating {
+text-align: center;
+margin-top: 2em;
+margin-bottom: 2em;
+  }
+  .star-rating .fa-star{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .star-rating .fas{color: rgb(63, 98, 212);}
+  .star-rating .far{  
+    color: #928d8d;
+  }
+  .animation {
+    -webkit-animation: wobble 1.8s ease-out;
+            animation: wobble 1.8s ease-out;
+    color: rgb(63, 98, 212);
+  }
+  @-webkit-keyframes wobble {
+    0% {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    20% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    40% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    60% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+    }
+    80% {
+      -webkit-transform: scale(0.96);
+              transform: scale(0.96);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes wobble {
+    0% {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    20% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    40% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    60% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+    }
+    80% {
+      -webkit-transform: scale(0.96);
+              transform: scale(0.96);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }

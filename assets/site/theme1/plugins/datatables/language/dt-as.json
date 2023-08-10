@@ -1,0 +1,17 @@
+{
+  "sProcessing": "অলপ ৰ'ব...",
+  "sLengthMenu": "_MENU_ টা নথি দেখাৱক",
+  "sZeroRecords": "কোনো তথ্য় পোৱা ন'গল",
+  "sInfo": "_TOTAL_ টা নথিৰ মাজত _START_ পৰা _END_ পর্যন্ত দেখুওৱা হৈছে",
+  "sInfoEmpty": "কোনো নথি পোৱা ন'গল",
+  "sInfoFiltered": "(মুঠ _MAX_ টা নথিৰ মাজৰ পৰা বছা হৈছে)",
+  "sInfoPostFix": "",
+  "sSearch": "অনুসন্ধান:",
+  "sUrl": "",
+  "oPaginate": {
+    "sFirst": "প্রথমটো",
+    "sPrevious": "আগৰটো",
+    "sNext": "পিছৰটো",
+    "sLast": "শেষৰটো"
+  }
+}

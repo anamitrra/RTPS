@@ -1,0 +1,135 @@
+.chatbot-btn {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 99;
+    background-image: url('../image/bot_icon.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.chatbot-btn:focus-within {
+    border: 0;
+
+}
+
+.chatwindow {
+    width: 350px;
+    max-width: 350px;
+    right: 10px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    z-index: 9999999;
+}
+
+.chatwindow .frame {
+    width: 100%;
+    background-color: #dbd7d2;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0.7em 0.7em 0.7em 0;
+    font-size: 0.8rem;
+    scroll-behavior: smooth;
+}
+
+.chatwindow ul {
+    list-style-type: none;
+}
+
+.chatwindow i {
+    cursor: pointer;
+}
+
+.chatbox {
+    background-color: whitesmoke;
+}
+
+.chatwindow .panel-heading {
+    background-color: whitesmoke;
+}
+
+.chatwindow ::placeholder {
+    color: rebeccapurple;
+}
+
+.sidebar {
+    position: fixed;
+    top: 30%;
+    left: 1%;
+    padding: 0.2em;
+}
+
+.bot-response {
+    background-color: antiquewhite;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    list-style-image: url('../image/bot.png');
+}
+
+.user-response {
+    background-color: aliceblue;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    position: relative;
+}
+
+.dtm {
+    position: absolute;
+    font-size: 0.7em;
+    bottom: 0;
+    right: 7px;
+}
+
+.bot-response .btn {
+    font-size: 0.8rem;
+}
+
+
+
+/* Notification Button */
+.noti-btn {
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+    z-index: 99;
+    /* background-image: url('../image/bot_icon.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: fit-content;
+    height: 50px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+.noti-btn:hover,
+.noti-btn:focus-visible,
+.noti-btn:focus {
+    background-color: red;
+    color: whitesmoke;
+}
+
+#noti-area {
+    width: 300px;
+    max-width: 350px;
+    right: 10px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    z-index: 9999999;
+    height: fit-content;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+}
+
+.noti-body {
+    height: 300px;
+    overflow: auto;
+}

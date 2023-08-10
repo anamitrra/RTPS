@@ -1,0 +1,56 @@
+## MongoDB Commands
+1. DB Dump:
+    mongodump -d old_db_name -o mongodump/
+    mongorestore -d new_db_name mongodump/old_db_name
+
+
+cd C:\Program Files\MongoDB\Server\4.4\bin
+mongorestore -d mis C:\xampp\htdocs\rtps\mongodump\13-05-2021_18-51\mis --drop
+
+cd C:\Program Files\MongoDB\Server\4.2\bin
+mongodump -d applications -o C:\xampp\htdocs\mongo\mongodump\
+mongodump -d applications -o /var/www/html/rtps/mongodump
+mongodump -d applications -c applications -o /var/www/html/rtps/
+mongodump -d applications -c ovca -o /var/www/html/rtps/mongodump/ovca
+mongodump -d applications -c applications -o /var/www/html/rtps/mongodump/latest_applications
+use applications
+db.dropDatabase()
+mongorestore -d applications /home/swfuser/mongodump/applications
+mongorestore -d appeal mongodump/v11/applications
+mongorestore -d appeal C:\xampp\htdocs\rtps\mongodump\v11\applications
+
+mongorestore -d appeal C:\xampp\htdocs\rtps\mongodump\latest\appeal
+
+
+2. Import/Export Collections:
+    mongoimport.exe -d=applications -c=applications "applications.json"
+    mongoexport --collection=applications --db=nic_db --out=applications.json
+
+mongoimport --db applications --collection applications --file "C:\xampp\htdocs\mongo\applications.json" --drop
+
+
+mongodb://192.168.8.3:27017,192.168.5.88:27017,192.168.8.92:27017/?replicaSet=rs0
+mongodb://myDBReader:D1fficultP%40ssw0rd@192.168.8.3:27017,192.168.5.88:27017,192.168.8.92:27017/?replicaSet=rs0
+
+mongorestore -d=applications -c=appeal_applications C:\xampp\htdocs\mongo\mongodump\v3\applications\appeal_applications.bson --drop
+mongorestore -d=appeal -c=roles C:\xampp\htdocs\rtps\mongodump\latest\appeal\roles.bson
+mongorestore -d=applications -c=applications C:\xampp\htdocs\rtps\applications\applications.bson --drop
+
+mongorestore -d appeal C:\xampp\htdocs\rtps\mongodump\24_02_2021_server\appeal
+
+mongorestore -d portal C:\xampp\htdocs\rtps\mongodump\portal
+
+mongorestore -d=portal -c=roles C:\xampp\htdocs\rtps\mongodump\admin-portal\roles.bson
+mongorestore -d=portal -c=users C:\xampp\htdocs\rtps\mongodump\admin-portal\users.bson
+
+C:\Program Files\MongoDB\Server\5.0\bin>mongoimport -d mis -c applications --file "F:\applications.json" --drop
+
+For CSV file import
+mongoimport -d iservices -c circle_district_list --type csv --file C:\Users\lenovo\Desktop\Circle_district_list.csv --headerline
+
+//For Json file export to be run before mongo
+mongoexport --db iservices --collection sp_services --out C:\Users\lenovo\Desktop\sp_services.json
+mongoexport --db iservices --collection sro_list --out C:\Users\lenovo\Desktop\sro_list.json
+
+//For Json file import to be run before mongo
+mongoimport --db iservices --collection districts --file "C:\Users\lenovo\Desktop\districts.json"  --jsonArray

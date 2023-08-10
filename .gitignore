@@ -1,0 +1,12 @@
+application/config/config.php
+application/config/mongo_db.php
+storage/logs/
+storage/
+/.idea
+/.vscode/
+/vendor/
+application/modules/iservices/config/rtps_services.php
+nbproject/
+dashboard/
+application/logs/
+mongodump/

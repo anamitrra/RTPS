@@ -1,0 +1,386 @@
+div#block-views-recent-pledges-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#flower-petals {
+    text-align: center;
+}
+
+/* For small phones */
+@media (max-width: 400px) {
+    div.view-content.icon.z-button {
+       display: flex;
+    }
+    
+    div.view-content.icon.z-button2 > a {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .take-pledge .right-container {
+        border: 0;
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   div#z-box {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+   div#pledge_left, div.right-container {
+       width: 90%;
+   }
+
+   div.view-content.icon {
+       width: 70vw;
+       display: flex;
+       justify-content: space-evenly;
+    }
+}
+
+/* For Topmost Nav bar */
+
+/* For all screen size */
+div.container.clearfix {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div#z-img img {
+    margin-right: 6px;
+}
+
+@media (min-width: 1024px) {
+    div#z-img {
+        margin-right: auto;
+    }
+}
+
+
+/* For screen size less than tablets */
+@media (max-width: 768px) {
+    div#z-img {
+        display: none;
+    }
+
+    .toolbar-header #user_log_reg .header_top_right .header_login a.hide-links {
+        display: none;
+    }
+
+    .toolbar-header #user_log_reg .header_top_right .header_login {
+        padding: .4rem;
+    }
+
+    /* Tables of service.html */
+    div.table-responsive {
+        display: flex; 
+        justify-content: center;
+    }
+}
+
+/* Topmost right navigation */
+.toolbar-header #user_log_reg .header_top_right .header_login a {
+  border: none;
+}
+
+/* The Gap between Nav header and Carousole */
+section.header.toolbar-header {
+    border: none;
+}
+
+/* Style for Flexbox table layout */
+div.my-container {
+    margin: 2em 0;
+}
+
+.my-content,
+.my-header,
+.my-action {
+    font-size: 16px;
+    padding: 8px;
+    line-height: 1.4;
+}
+
+div.my-action button.btn-primary {
+    border-radius: 0.25rem;
+}
+
+.my-header {
+    background-color: rgba(60, 114, 152, 0.57);
+    color: white;
+    font-weight: bold;
+}
+.my-row {
+    color: #011919;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+}
+.my-list {
+    padding-left: 5%;
+}
+.my-content {
+    max-width: 50%;
+}
+
+section.search-div {
+    padding: .2rem;
+}
+section.search-div > form.example {
+    display: flex;
+    justify-content: center;
+}
+form.example input[type=text] {
+    border-color: #1e7fbd;
+    width: 80%;
+}
+form.example button {
+    border-color: #1e7fbd;
+    background-color: #1e7fbd;
+    width: 20%;
+}
+
+@media screen and (max-width: 700px) {
+    .my-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .my-content {
+        max-width: 100%;
+    }
+}
+
+/* For small screens, hide the carousole and show the search bar instead.*/
+@media (max-width: 576px) {
+    section#my-banner, li#my-search-link {
+        display: none;
+    }
+
+    section.search-div {
+        display: block;
+    }
+}
+
+@media (min-width: 764px) {
+    section.search-div > form.example {
+        display: flex;
+        justify-content: flex-end;
+    }
+    form.example input[type=text] {
+        width: 20%;
+    }
+    form.example button {
+        margin-right: 8%;
+        width: 5%;
+    }
+}
+
+/* Divider of Recent services  */
+.take-pledge .view-recent-pledges .views-row {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Video guide and user manual buttons */
+.my-button {
+    margin-right: .1em;
+    background-color: #C06C84 !important;
+    border-color: #C06C84 !important;
+    border-radius: 0;
+}
+
+
+/* Flower petals */
+div.tabber {
+    border-color: #1e7fbd;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: #f7fcff;
+}
+
+.tabber a {
+    color: #1e7fbd;
+    font-weight: bold;
+}
+
+.tabber:hover > a  {
+  color: white;
+}
+
+/* Search funtionality for services page */
+section#my-service-conainer {
+    margin-top: 0
+}
+
+div.container > section.my-service-div {
+    display: block;
+}
+
+@media (max-width: 567px) {
+    section#my-service-conainer {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 764px) {
+    section.my-service-div > form.example {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 .7rem 0;
+    }
+    section.my-service-div > form.example input[type=text] {
+        width: 40%;
+    }
+    section.my-service-div > form.example button {
+        width: 8%;
+    }
+}
+
+/* Tipue serch result div */
+#tipue_search_content, #tipue_search_content2 {
+    border: 1px solid #1e7fbd;
+    border-radius: 5px;
+    background-color: #f7fcff;
+}
+
+.tipue_search_content_title a {
+    color: #1e7fbd;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+#tipue_search_results_count, #tipue_search_error {
+    color: #C06C84;
+    font-size: smaller;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+#tipue_search_foot_boxes li a {
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+#tipue_search_foot_boxes li.current {
+    background-color: #C06C84;
+    color: white;
+}
+
+#tipue_search_foot_boxes li a:hover {
+    background-color: #C06C84;
+    color: white;
+}
+
+section.my-service-div > #tipue_search_content {
+    margin: .2rem 0 1rem 0;
+}
+
+#tipue_search_error {
+    font-size: large;
+}
+
+/* Show "contact us" in the nav bar for small screens */
+@media (min-width: 770px) {
+    li#my-contact-link {
+        display: none;
+    }
+}
+
+/* Make services list scrollable for "Services by Dept" tab */
+section#department div.tab-content {
+    overflow: auto;
+}
+
+#tipue_search_content2 {
+    max-width: 100%;
+    padding: 15px;
+}
+
+div.rc section.my-service-div {
+    width: 100%;
+    margin: .4em 0 .7em 0;
+}
+
+div.rc section.my-service-div form.example input[type=text] {
+    width: 85%;
+}
+
+div.rc section.my-service-div form.example button {
+    width: 15%;
+    margin-right: 0;
+}
+
+@media (max-width: 567px) {
+    div.container > section.my-service-div {
+        display: block;
+    }
+    div.rc section.my-service-div {
+        display: none;
+    }
+}
+
+@media (min-width: 570px) {
+    div.container > section.my-service-div {
+        display: none;
+    }
+    div.rc section.my-service-div {
+        display: block;
+    }
+
+    /* Services list scrolabble */
+    div#my-service-list {
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+}
+
+/* Text settings for FAQ page */
+p.faq-answer {
+    line-height: 1.7;
+    color: black;
+    font-weight: normal;
+}
+
+.faq-section > label {
+    font-weight: bolder;
+    margin-bottom: .6rem;
+}
+
+/* For mobile screens, hide the dept list and make dept heading collapsale */
+div.collapsible {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* text-align: left; */
+}
+span.collaps-icon {
+  display: none;
+  /* float: right; */
+}
+
+
+@media (max-width: 576px) {
+  div.service-dept-list {
+    display: none;
+  }
+
+  #my-service-list > h1.inner-page-title {
+    font-size: medium;
+    margin-top: 5px;
+  }
+  
+  span.collaps-icon {
+    display: inline;
+  }
+
+}
