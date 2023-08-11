@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"portal.user_logs"}],"uuid":"fd9e244c6781486fa92af0d2269725d1"}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"appeal.public_grievances"}],"uuid":"9b3ff200f46c48a5a473d123b5ab826c"}

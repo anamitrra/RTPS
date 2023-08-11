@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"portal.videos"}],"uuid":"a1ecb72317304e52a7a26fcddab58592"}

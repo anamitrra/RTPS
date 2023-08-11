@@ -1,0 +1,36 @@
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4dd"},"department_id":"2252","department_name":"Animal Husbandry and Veterinary Department (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4de"},"department_id":"1469","department_name":"General Administration Department (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4df"},"department_id":"1477","department_name":"Guwahati Development Department"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e0"},"department_id":"1417","department_name":"Department of Agriculture and Horticulture (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e1"},"department_id":"2100","department_name":"Karbi Anglong (AC)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e2"},"department_id":"1417","department_name":"Department of Agriculture and Horticulture"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e3"},"department_id":"2197","department_name":" Directorate Of Social Welfare (Social Justice and Empowerment Sector) "}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e4"},"department_id":"1477","department_name":"Guwahati Development Department (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e5"},"department_id":"1651","department_name":"Public Works Department"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e6"},"department_id":"2189","department_name":"Department of Secondary Education"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e7"},"department_id":"1522","department_name":"Department of Transport (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e8"},"department_id":"1621","department_name":"North Cachar Hills Autonomous Council"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4e9"},"department_id":"2193","department_name":"Department of Skill, Employment and Entrepreneurship (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4ea"},"department_id":"2193","department_name":"Department of Skill, Employment and Entrepreneurship"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4eb"},"department_id":"2197","department_name":" Directorate Of Social Welfare (Social Justice and Empowerment Sector)  (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4ec"},"department_id":"1421","department_name":"Department of Health and Family Welfare (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4ed"},"department_id":"2189","department_name":"Department of Secondary Education (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4ee"},"department_id":"2100","department_name":"Karbi Anglong (AC) (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4ef"},"department_id":"810","department_name":"Urban Development Department"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f0"},"department_id":"1421","department_name":"Department of Health and Family Welfare"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f1"},"department_id":"1626","department_name":"Department of Judicial (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f2"},"department_id":"1621","department_name":"North Cachar Hills Autonomous Council (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f3"},"department_id":"810","department_name":"Urban Development Department (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f4"},"department_id":"1661","department_name":"Department of Excise (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f5"},"department_id":"1552","department_name":"DEPARTMENT OF WELFARE OF PLAIN TRIBES AND BACKWARD CLASSES (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f6"},"department_id":"1552","department_name":"DEPARTMENT OF WELFARE OF PLAIN TRIBES AND BACKWARD CLASSES"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f7"},"department_id":"1661","department_name":"Department of Excise"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f8"},"department_id":"1415","department_name":"CO-OPERATION DEPARTMENT (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4f9"},"department_id":"1522","department_name":"Department of Transport"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4fa"},"department_id":"1415","department_name":"CO-OPERATION DEPARTMENT"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4fb"},"department_id":"1469","department_name":"General Administration Department"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4fc"},"department_id":"2252","department_name":"Animal Husbandry and Veterinary Department"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4fd"},"department_id":"1651","department_name":"Public Works Department (STATE)"}
+{"_id":{"$oid":"612f4dd9c70aeb1af061a4fe"},"department_id":"1626","department_name":"Department of Judicial"}
+{"_id":{"$oid":"612f4f63ef680000cb00220e"},"department_id":"1234","department_name":"Revenue and Disaster Management","created_at":{"$date":"2021-09-01T10:01:07Z"},"updated_at":{"$date":"2021-09-01T10:01:07Z"}}
+{"_id":{"$oid":"612f4fd1ef680000cb002217"},"department_id":"1282","department_name":"Bodoland Territorial Area District","created_at":{"$date":"2021-09-01T10:02:57Z"},"updated_at":{"$date":"2021-09-01T10:02:57Z"}}

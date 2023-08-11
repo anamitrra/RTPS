@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"mis.ovca"}],"uuid":"6c9ef543c07c479fb6a54a0bccae4dfe"}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"mis.second_appeal_districtwise_api_data"}],"uuid":"54b3771b5059429f8cad5165c37ce9d9"}

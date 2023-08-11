@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"applications.access_list"}],"uuid":"23009e2ea4624c9d8aa64f47b0aadc96"}

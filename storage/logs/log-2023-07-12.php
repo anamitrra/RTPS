@@ -1,0 +1,87 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-07-12 10:30:13 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:16 --> Severity: Notice --> Undefined property: stdClass::$official_login C:\xampp\htdocs\rtps\application\modules\site\views\theme1\includes\header.php 513
+ERROR - 2023-07-12 10:30:16 --> Severity: Notice --> Trying to get property 'en' of non-object C:\xampp\htdocs\rtps\application\modules\site\views\theme1\includes\header.php 513
+ERROR - 2023-07-12 10:30:16 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:16 --> 404 Page Not Found: /index
+ERROR - 2023-07-12 10:30:20 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:34 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:41 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:41 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:41 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 10:30:45 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:03:23 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:10:35 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:11:07 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:11:36 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:12:02 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:18:15 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:21:08 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:21:19 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:21:19 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:21:19 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:21:19 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:22:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:23:02 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:23:04 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:27:40 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:27:40 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:27:40 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:01 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:02 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:02 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:34 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:35 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:28:35 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:29:00 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:29:00 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:29:43 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:31 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:33 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:33 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:54 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:54 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:56 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:56 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:31:56 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:32:34 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:32:34 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:32:39 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:32:39 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:32:39 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:13 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:36 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:36 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:36 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:49 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:49 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:49 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:33:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:34:05 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:34:05 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:34:10 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:35:16 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:35:16 --> 404 Page Not Found: /index
+ERROR - 2023-07-12 17:37:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:37:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:37:59 --> 404 Page Not Found: /index
+ERROR - 2023-07-12 17:38:04 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:38:04 --> Severity: error --> Exception: Call to undefined method Registration::input() C:\xampp\htdocs\rtps\application\modules\spservices\controllers\migrationcertificateahsec\Registration.php 295
+ERROR - 2023-07-12 17:38:39 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:38:41 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:38:41 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:38:59 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:39:00 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:39:03 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:39:50 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:39:50 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:39:53 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:00 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:00 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:13 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:17 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:17 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:27 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php
+ERROR - 2023-07-12 17:43:27 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\rtps\vendor/autoload.php

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"mis.mobile_otp"}],"uuid":"b76e4930df524fefacf14ce858c690f2"}

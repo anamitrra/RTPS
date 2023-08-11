@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"portal.artps_services"}],"uuid":"b8fcc4548b8c4134a31e4d292c293737"}

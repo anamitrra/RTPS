@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"appeal.second_appeal_otp"}],"uuid":"967bdaecd5f94e7f929f3f690831b6c0"}
